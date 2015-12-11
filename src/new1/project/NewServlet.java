@@ -15,10 +15,7 @@ public class NewServlet extends HttpServlet{
 		PrintWriter pw=res.getWriter();
 		res.setContentType("text/html");
  
-		String user=req.getParameter("Username");
-		String pass=req.getParameter("Password");
-		pw.println(user);
-		pw.println(pass);
+		
 		 pw.close();
  
 	}
